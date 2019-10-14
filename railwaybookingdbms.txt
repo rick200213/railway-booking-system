@@ -1,0 +1,20 @@
+use aritra;
+select * from logindetails;
+use aritra;
+select * from pythonstudent;
+create table  train(train_no int,fr  varchar(30),Dest varchar(30)
+,Departure time, Arrival time,dist int);
+insert into train VALUES(14533,'NEWDELH','RAJENDRANAGAR','17:15:00','05:30:00',400);
+create table passengers1(pnr int ,
+name varchar(20),age int,dateofjourney varchar(20),trainno int,
+fr varchar(20),dest varchar(20),class varchar(20),price int,depart time,arriv time
+);
+drop table passengers1;
+select * from train;
+desc passengers1;
+select  * from train;
+insert into passengers1 values(1001,'rick',17,'20-05-2018','12310','abc','to','2AC',2000,'17:50:00','05:20:00');
+select * from passengers1;
+drop table passengers;
+select * from train ;
+insert into train values(12236,'DIBRUGARH','NEWDELH','18:15:00','13:55:00',900);
